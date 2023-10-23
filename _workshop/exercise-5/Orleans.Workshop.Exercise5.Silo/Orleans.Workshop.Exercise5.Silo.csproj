@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-Orleans.Workshop.Exercise4.Silo-762146ff-aaf1-44e9-8623-dc6c19c15fb5</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-rc.2.23479.6" />
+		<PackageReference Include="Microsoft.Orleans.Core" Version="7.2.2" />
+		<PackageReference Include="Microsoft.Orleans.Server" Version="7.2.2" />
+		<PackageReference Include="Microsoft.Orleans.Sdk" Version="7.2.2" />
+		<PackageReference Include="OrleansDashboard" Version="7.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Orleans.Workshop.Exercise5.Contracts\Orleans.Workshop.Exercise5.Contracts.csproj" />
+	</ItemGroup>
+</Project>
